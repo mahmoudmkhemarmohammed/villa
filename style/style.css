@@ -186,7 +186,7 @@ header .container .list-setting {
     height: calc(100vh - 75px);
     margin-top: 75px;
     transition: var(--transition);
-    overflow-y: scroll;
+    overflow-anchor: auto;
 }
 header .container .list-setting.active {
     right: 0;
