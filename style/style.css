@@ -184,6 +184,7 @@ header .container .list-setting {
     width: 300px;
     background-color: var(--main-back);
     height: calc(100vh - 75px);
+    margin-top: 75px;
     transition: var(--transition);
     overflow-anchor: auto;
 }
