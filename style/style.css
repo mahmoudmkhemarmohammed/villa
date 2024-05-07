@@ -183,10 +183,10 @@ header .container .list-setting {
     bottom: 0;
     width: 300px;
     background-color: var(--main-back);
-    min-height: calc(100vh - 75px);
+    height: calc(100vh - 75px);
     margin-top: 75px;
     transition: var(--transition);
-    overflow-anchor: auto;
+    overflow-y: auto;
 }
 header .container .list-setting.active {
     right: 0;
